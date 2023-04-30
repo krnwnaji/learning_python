@@ -4,3 +4,9 @@ class student:
         self.major = major
         self.gpa = gpa
         self.is_on_probation = is_on_probation
+
+    def on_honor_role(self):
+        if self.gpa >= 3.5:
+            return True
+        else:
+            return False
